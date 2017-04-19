@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "fabric",
-    "description": "api documentation for [fabric (v1.7.9)](http://fabricjs.com/) [![npm package](https://img.shields.io/npm/v/npmdoc-fabric.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-fabric) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-fabric.svg)](https://travis-ci.org/npmdoc/node-npmdoc-fabric)",
+    "description": "#### api documentation for  [fabric (v1.7.9)](http://fabricjs.com/)  [![npm package](https://img.shields.io/npm/v/npmdoc-fabric.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-fabric) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-fabric.svg)](https://travis-ci.org/npmdoc/node-npmdoc-fabric)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "fabric": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
